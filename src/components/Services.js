@@ -64,13 +64,6 @@ const Services = () => {
         </ul>
       ),
     },
-    // {
-    //   id: 2,
-    //   icon: <FaCamera className="commonIcons" />,
-    //   heading: "Photography",
-    //   text:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    // },
     {
       id: 3,
       icon: <FaDatabase className="commonIcons" />,
@@ -103,27 +96,6 @@ const Services = () => {
         </ul>
       ),
     },
-    // {
-    //   id: 4,
-    //   icon: <FaApple className="commonIcons" />,
-    //   heading: "App Development",
-    //   text:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    // },
-    // {
-    //   id: 5,
-    //   icon: <FaFileVideo className="commonIcons" />,
-    //   heading: "Video Editing",
-    //   text:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    // },
-    // {
-    //   id: 5,
-    //   icon: <FaSearchDollar className="commonIcons" />,
-    //   heading: "SEO Expert",
-    //   text:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos, tempore.",
-    // },
   ]);
 
   return (
@@ -143,6 +115,8 @@ const Services = () => {
                 <div className="services__box">
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
+                  <hr />
+                  <br />
                   <div className="services__box-p">{info.text}</div>
                   <div className="services__box-header">{info.headingtwo}</div>
                   <div className="services__box-p">{info.language}</div>

@@ -134,39 +134,63 @@ export default class Portfolio extends Component {
         title: "Analog Clock",
         text: "This project is a working clock made with CSS and Javascript.",
         imgURL: 'https://i.ibb.co/5LsfhpJ/analogclock.png',
+        link: 'https://hopeful-hoover-10514b.netlify.app/'
       },
       {
         id: 2,
         title: "Todo List",
         text: "This JavaScript Project is to wire up a todo list application.",
         imgURL: 'https://i.ibb.co/xKnCNHG/todolisti.png',
-      },
-      {
-        id: 2,
-        title: "Drum Kit",
-        text: "This is a drum kit application for childs.",
-        imgURL: 'https://i.ibb.co/QjQsBqg/drumkit.jpg',
+        link: 'https://naughty-mcclintock-7f565f.netlify.app/'
       },
       {
         id: 3,
-        title: "Dice Games",
-        text:
-          "Dice rolls randomly and generate a winner (or draw).",
-        imgURL: 'https://i.ibb.co/86VHhL0/dice-games.png',
+        title: "Drum Kit",
+        text: "This is a drum kit application for childs.",
+        imgURL: 'https://i.ibb.co/QjQsBqg/drumkit.jpg',
+        link: {/*'https://confident-stonebraker-376dda.netlify.app/'*/ }
       },
       {
         id: 4,
+        title: "Forkify",
+        text:
+          "I built a recipe page with using JS",
+        imgURL: 'https://i.ibb.co/xzdtFrh/forkify.jpg',
+        link: 'https://objective-raman-539e4d.netlify.app/'
+      },
+      {
+        id: 5,
         title: "Change Color",
         text:
           "Background color will be changed randomly when you clicked button.",
         imgURL: 'https://i.ibb.co/DGw94gJ/changecolor.jpg',
+        link: 'https://amazing-almeida-07e06d.netlify.app/'
       },
       {
-        id: 5,
-        title: "Forkify",
+        id: 6,
+        title: "Dice Games",
         text:
-          "I built a recipe page.",
-        imgURL: 'https://i.ibb.co/xzdtFrh/forkify.jpg',
+          "Dice rolls randomly and generate a winner (or draw).",
+        imgURL: 'https://i.ibb.co/86VHhL0/dice-games.png',
+        link: {/*'https://confident-stonebraker-376dda.netlify.app/'*/ }
+      },
+      {
+        id: 7,
+        title: "Guess Number",
+        text:
+          "User trying to find the secret number lowest turn.",
+        imgURL: "https://i.ibb.co/bgv5yWY/guessmynumber.jpg",
+        link: 'https://gallant-feynman-20d291.netlify.app'
+
+      },
+      {
+        id: 7,
+        title: "Choose Door",
+        text:
+          "Your mission is to construct a single-page website that plays a fully-functional game.",
+        imgURL: "https://i.ibb.co/Vjg4B5D/choosedoor.jpg",
+        link: 'https://zen-lewin-87cadd.netlify.app/'
+
       },
 
     ],
@@ -201,7 +225,7 @@ export default class Portfolio extends Component {
                   </div> */}
                   <div className="card">
                     <div className="box">
-                      <a href="">
+                      <a href={item.link} target='blank'>
                         <img src={item.imgURL} alt="" />
                       </a>
                       <div className="text">{item.title}</div>

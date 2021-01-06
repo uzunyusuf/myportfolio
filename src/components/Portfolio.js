@@ -183,7 +183,7 @@ export default class Portfolio extends Component {
     const { items, header, portfolio } = this.state;
     return (
       <div id="portfolio" className="services">
-        <div className="container">
+        <div className="container servicesContainer">
           <div className="services__header">
             <div className="common">
               <h1 className="mainHeader">{header.subHeader}</h1>

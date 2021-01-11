@@ -1,19 +1,14 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaGithub,
-  FaLinkedinIn,
-  FaPlay,
-} from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
   const [state] = React.useState({
-    title: 'I am John Doe',
-    text: ' i am John, professional web developer with +2 years experience in this field'
-  })
+    title: "I am John Doe",
+    text:
+      " i am John, professional web developer with +1 years experience in this field",
+  });
   return (
-    <header id='header' className="header" >
+    <header id="header" className="header">
       <div className="container">
         <div className="row">
           <div className="col-6">
@@ -51,7 +46,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </header >
+    </header>
   );
 };
 

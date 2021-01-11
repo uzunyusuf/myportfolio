@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import {
   FaGithub,
-  FaCamera,
-  FaCircleNotch,
-  FaApple,
-  FaSearchDollar,
-  FaFileVideo,
   FaCode,
   FaDatabase,
   FaReact,
@@ -26,13 +21,16 @@ import {
   SiSemanticweb,
   SiElasticsearch,
   SiApachesolr,
+  SiGraphql,
+  SiMinetest,
 } from "react-icons/si";
 import { DiScrum } from "react-icons/di";
 import { ImStack } from "react-icons/im";
+import { AiFillApi } from "react-icons/ai";
 
 const Services = () => {
   const [header] = React.useState({
-    subHeading: "Services",
+    subHeading: "Skills",
     text: "My services and skills",
   });
   const [state] = React.useState([
@@ -86,7 +84,12 @@ const Services = () => {
       description:
         "The building and maintaining of the web server, application and database, ensuring frontend operations are smooth.",
       text: "“Talk is cheap. Show me the code.” – Linus Torvalds",
-      headingtwo: "Languages:",
+      headingtwo: (
+        <p>
+          <br />
+          Languages:
+        </p>
+      ),
       language: (
         <ul>
           <li>
@@ -110,6 +113,12 @@ const Services = () => {
             <SiPostgresql /> PostgreSQL
           </li>
           <li>
+            <SiGraphql /> GraphQl
+          </li>
+          <li>
+            <AiFillApi /> RestAPI
+          </li>
+          <li>
             <SiJquery /> Ajax, Jquery
           </li>
         </ul>
@@ -122,7 +131,12 @@ const Services = () => {
       description:
         "Mostly backend work, but are also adept at frontend languages to manipulate how the site looks on the user's end.",
       text: "“If you think math is hard, try web design.” – Trish Parr",
-      headingtwo: "Languages:",
+      headingtwo: (
+        <p>
+          <br />
+          Languages:
+        </p>
+      ),
       language: <p>All of the languages for both fronted and backend.</p>,
       headingthree: "Dev Tools:",
       devtools: (
@@ -139,9 +153,11 @@ const Services = () => {
           <li>
             <FaGithub /> Git, Github
           </li>
-
           <li>
             <DiScrum /> Scrum, Agile, Kanban
+          </li>
+          <li>
+            <SiMinetest /> TDD
           </li>
         </ul>
       ),
@@ -170,6 +186,7 @@ const Services = () => {
                   <div className="services__box-p">{info.description}</div>
                   <br />
                   <div className="services__box-p">{info.text}</div>
+
                   <div className="services__box-header">{info.headingtwo}</div>
                   <div className="services__box-p">{info.language}</div>
                   <div className="services__box-header">

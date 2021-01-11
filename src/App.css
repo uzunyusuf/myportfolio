@@ -202,7 +202,7 @@ body {
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
-  height: 842px;
+  height: 710px;
 }
 .services__box:hover {
   background: #ff4a57;
@@ -249,11 +249,11 @@ body {
   margin-bottom: 30px;
 }
 .about__info-p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 .about__info-p2 {
-  font-size: 14px;
+  font-size: 16px;
 }
 .info__contacts {
   margin-top: 20px;
@@ -281,7 +281,7 @@ body {
 
 .contactSection p {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
   text-align: center;
 }

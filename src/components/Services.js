@@ -17,8 +17,18 @@ import {
   FaVuejs,
   FaDocker,
 } from "react-icons/fa";
-import { SiMongodb, SiJavascript, SiHtml5, SiJquery, SiSemanticweb } from "react-icons/si";
+import {
+  SiMongodb,
+  SiJavascript,
+  SiHtml5,
+  SiJquery,
+  SiPostgresql,
+  SiSemanticweb,
+  SiElasticsearch,
+  SiApachesolr,
+} from "react-icons/si";
 import { DiScrum } from "react-icons/di";
+import { ImStack } from "react-icons/im";
 
 const Services = () => {
   const [header] = React.useState({
@@ -30,7 +40,10 @@ const Services = () => {
       id: 1,
       icon: <FaCode className="commonIcons" />,
       heading: "Front-end Developer",
-      text: "“If you think math is hard, try web design.” – Trish Parr",
+      description:
+        "The creation of user-friendly web pages, God of screen visuals and functionally, able to creatively solve user-centered issues. ",
+      text:
+        "“Great web design without functionality is like a sports car with no engine.” – Paul Cookson",
       headingtwo: "Languages:",
       language: (
         <ul>
@@ -51,7 +64,9 @@ const Services = () => {
           <li>
             <FaBootstrap /> Bootstrap
           </li>
-          <li><SiSemanticweb />  Semantic UI</li>
+          <li>
+            <SiSemanticweb /> Semantic UI
+          </li>
           <li>
             <FaReact /> React
           </li>
@@ -65,15 +80,22 @@ const Services = () => {
       ),
     },
     {
-      id: 3,
+      id: 2,
       icon: <FaDatabase className="commonIcons" />,
       heading: "Back-end Developer",
+      description:
+        "The building and maintaining of the web server, application and database, ensuring frontend operations are smooth.",
       text: "“Talk is cheap. Show me the code.” – Linus Torvalds",
       headingtwo: "Languages:",
       language: (
-        <p>
-          <SiJavascript /> Javascript, ES6
-        </p>
+        <ul>
+          <li>
+            <SiJavascript /> Javascript
+          </li>
+          <li>
+            <SiJavascript /> ES6
+          </li>
+        </ul>
       ),
       headingthree: "Dev Tools:",
       devtools: (
@@ -85,13 +107,41 @@ const Services = () => {
             <SiMongodb /> MongoDB
           </li>
           <li>
+            <SiPostgresql /> PostgreSQL
+          </li>
+          <li>
+            <SiJquery /> Ajax, Jquery
+          </li>
+        </ul>
+      ),
+    },
+    {
+      id: 3,
+      icon: <ImStack className="commonIcons" />,
+      heading: "Full-Stack Developer",
+      description:
+        "Mostly backend work, but are also adept at frontend languages to manipulate how the site looks on the user's end.",
+      text: "“If you think math is hard, try web design.” – Trish Parr",
+      headingtwo: "Languages:",
+      language: <p>All of the languages for both fronted and backend.</p>,
+      headingthree: "Dev Tools:",
+      devtools: (
+        <ul>
+          <li>
+            <SiElasticsearch /> Elasticsearch
+          </li>
+          <li>
+            <SiApachesolr /> Apache Solr
+          </li>
+          <li>
             <FaDocker /> Docker
           </li>
           <li>
             <FaGithub /> Git, Github
           </li>
+
           <li>
-            <DiScrum /> Scrum, Agile
+            <DiScrum /> Scrum, Agile, Kanban
           </li>
         </ul>
       ),
@@ -116,6 +166,8 @@ const Services = () => {
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
                   <hr />
+                  <br />
+                  <div className="services__box-p">{info.description}</div>
                   <br />
                   <div className="services__box-p">{info.text}</div>
                   <div className="services__box-header">{info.headingtwo}</div>

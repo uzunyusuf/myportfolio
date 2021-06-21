@@ -3,9 +3,9 @@ import { FaFacebookF, FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
   const [state] = React.useState({
-    title: "I am John Doe",
+    title: "I am Yusuf Uzun",
     text:
-      " i am John, professional web developer with +1 years experience in this field",
+      " i am Yusuf, professional web developer with +1 years experience in this field",
   });
   return (
     <header id="header" className="header">

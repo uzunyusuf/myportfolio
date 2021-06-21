@@ -38,10 +38,10 @@ const Contact = () => {
                   <a href="https://twitter.com/" target="_blank"><FaTwitter className="contactIcon" /></a>
                 </li>
                 <li>
-                  <a href="https://github.com" target="_blank"><FaGithub className="contactIcon" /></a>
+                  <a href="https://github.com/uzunyusuf" target="_blank"><FaGithub className="contactIcon" /></a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com" target="_blank"><FaLinkedinIn className="contactIcon" /></a>
+                  <a href="https://www.linkedin.com/in/yusuf-uzun-859545150/" target="_blank"><FaLinkedinIn className="contactIcon" /></a>
                 </li>
               </ul>
             </div>

@@ -7,10 +7,10 @@ const About = () => {
       "Who am I?",
   });
   const [state] = React.useState([
-    { id: 1, title: "Name:", text: "John Doe" },
-    { id: 2, title: "Email:", text: "john@doe.com" },
-    { id: 3, title: "Github:", text: <a href='https://github.com/' target="_blank">/johndoe</a> },
-    { id: 4, title: "Linkedin:", text: <a href='https://linkedin.com/' target="_blank">/johndoe</a> },
+    { id: 1, title: "Name:", text: "Yusuf Uzun" },
+    { id: 2, title: "Email:", text: "yusufuzn19@gmail.com" },
+    { id: 3, title: "Github:", text: <a href='https://github.com/uzunyusuf' target="_blank">/uzunyusuf</a> },
+    { id: 4, title: "Linkedin:", text: <a href='https://www.linkedin.com/in/uzunyusuf/' target="_blank">/uzunyusuf</a> },
   ]);
 
   return (

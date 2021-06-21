@@ -148,7 +148,7 @@ export default class Portfolio extends Component {
         title: "Drum Kit",
         text: "This is a drum kit application for childs.",
         imgURL: 'https://i.ibb.co/QjQsBqg/drumkit.jpg',
-        link: {/*'https://confident-stonebraker-376dda.netlify.app/'*/ }
+        link: {'https://confident-stonebraker-376dda.netlify.app/' }
       },
       {
         id: 4,
@@ -172,7 +172,7 @@ export default class Portfolio extends Component {
         text:
           "Dice rolls randomly and generate a winner (or draw).",
         imgURL: 'https://i.ibb.co/86VHhL0/dice-games.png',
-        link: {/*'https://confident-stonebraker-376dda.netlify.app/'*/ }
+        link: {'https://confident-stonebraker-376dda.netlify.app/' }
       },
       {
         id: 7,

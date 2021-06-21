@@ -22,10 +22,10 @@ const Banner = () => {
                     <FaTwitter />
                   </li>
                   <li>
-                    <a href="https://github.com/uzunyusuf" target="_blank"><FaGithub/></a>
+                    <a href="https://github.com/uzunyusuf" target="_blank"><FaGithub style={{color: "white"}}/></a>
                   </li>
                   <li>
-                   <a href="www.linkedin.com/in/uzunyusuf" target="_blank"><FaLinkedinIn/></a>
+                   <a href="www.linkedin.com/in/uzunyusuf" target="_blank"><FaLinkedinIn style={{color: "white"}}/></a>
                   </li>
                 </ul>
                 <h1>{state.title}</h1>

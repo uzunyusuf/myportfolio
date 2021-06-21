@@ -24,7 +24,7 @@ const About = () => {
         <div className="row h-650 alignCenter">
           <div className="col-6 left">
             <div className="about__img">
-              <img src="https://thispersondoesnotexist.com/image" alt="" />
+              <img src="https://i.ibb.co/Ns3NWZj/1605524339435.jpg" alt="" />
             </div>
           </div>
           <div className="col-6 right">
